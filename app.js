@@ -98,24 +98,24 @@ const caption = [
     },
     {
         timeFrom: 65100,
-        timeTo: 69000,
+        timeTo: 68500,
         jp: 'ありきたりで、けれど愛しい',
         kr: '흔히 있지만, 그래도 사랑스러운'
     },
     {
-        timeFrom: 69500,
+        timeFrom: 68600,
         timeTo: 71000,
         jp: '日々を過ごしたいよ',
         kr: '나날을 보내고 싶어'
     },
     {
         timeFrom: 71500,
-        timeTo: 73000,
+        timeTo: 73500,
         jp: '君と笑い、君と泣く',
         kr: '너와 웃고, 너와 우는'
     },
     {
-        timeFrom: 73100,
+        timeFrom: 73600,
         timeTo: 78000,
         jp: 'バッドエンドのその先で',
         kr: '배드 엔드의 그 끝에서'
