@@ -27,6 +27,32 @@ body {
     color: white;
 }
 
+.intro h2.jp {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -20%);
+    font-size: 2.5em;
+    color: white;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.intro h2.kr {
+    position: absolute;
+    top: 87.5%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -12.5%);
+    font-size: 2.5em;
+    color: white;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
 section {
     height: 100vh;
     color: black;
