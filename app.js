@@ -3,6 +3,7 @@ const video = intro.querySelector('video');
 const text = intro.querySelector('h1');
 const capJP = intro.querySelector('h2.jp');
 const capKR = intro.querySelector('h2.kr');
+const div = intro.querySelector('div');
 // END OF PAGE
 const section = document.querySelector('section'); 
 const endText = section.querySelector('h1');
@@ -22,6 +23,17 @@ const scene = new ScrollMagic.Scene({
 .setPin(intro)
 .addTo(controller);
 
+// back
+
+// const divAnim = TweenMax.fromTo(div, 3, {opacity: 1}, {opacity: 0})
+
+// const scene2 = new ScrollMagic.Scene({
+//     duration: 3000, // 90sec
+//     triggerElemnt: intro,
+//     triggerHook: 87000
+// })
+// .setTween(divAnim) 
+// .addTo(controller);
 // VIDEO ANIMATION
 
 let accelAmount = 0.1;
