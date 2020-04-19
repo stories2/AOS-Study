@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+div.misaka {
+    height: 100vh;
+    background-image: url('./src/background-min.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div.misaka div.character {
+    height: 100vh;
+    background-image: url('./src/character.PNG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+}
+
+div.misaka div.elec1 {
+    height: 100vh;
+    background-image: url('./src/elec1.PNG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+}
+
+div.misaka div.elec2 {
+    height: 100vh;
+    background-image: url('./src/elec2.PNG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+}
+
+div.misaka div.elec3 {
+    height: 100vh;
+    background-image: url('./src/elec3.PNG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+}
+
+div.misaka div.elec4 {
+    height: 100vh;
+    background-image: url('./src/elec4.PNG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+}
+
+div.content {
+    height: 100vh;
+}
+
+div.content h1 {
+    padding-top: 300px;
+    text-align: center;
+    font-size: 80px;
+}
