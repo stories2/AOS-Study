@@ -81,7 +81,7 @@ setInterval(() => {
             if (anim.type === 2) {
                 anim.ele.style.opacity = (delay - anim.timeFrom) / (anim.timeTo - anim.timeFrom)
             }
-            anim.ele.style.backgroundPosition = `center ${0 + (-2000 + delay) / 30}px`;
+            anim.ele.style.backgroundPosition = `center ${10 - 7.5 * Math.sin(delay / 5500 * 30)}px`;
             // if (anim.type === 1) {
             //     // anim.ele.style.backgroundPositionY = 0 + (-1000 + delay) / 30
             //     anim.ele.style.backgroundPosition = `center ${0 + (-4000 + delay) / 30}px`;
