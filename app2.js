@@ -17,31 +17,31 @@ const animFrame = [
     // },
     {
         timeFrom: 0,
-        timeTo: 4000,
+        timeTo: 10000,
         type: 1,
         ele: character
     },
     {
-        timeFrom: 1000,
-        timeTo: 1999,
+        timeFrom: 500,
+        timeTo: 3999,
         type: 2,
         ele: elec1
     },
     {
         timeFrom: 1500,
-        timeTo: 2799,
+        timeTo: 4499,
         type: 2,
         ele: elec2
     },
     {
         timeFrom: 2000,
-        timeTo: 3499,
+        timeTo: 5499,
         type: 2,
         ele: elec3
     },
     {
         timeFrom: 2500,
-        timeTo: 4000,
+        timeTo: 10000,
         type: 2,
         ele: elec4
     }
@@ -50,7 +50,7 @@ const animFrame = [
 const controller = new ScrollMagic.Controller();
 
 const scene = new ScrollMagic.Scene({
-    duration: 3000, 
+    duration: 5500, 
     triggerElemnt: misaka,
     triggerHook: 0
 })
